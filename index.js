@@ -1,6 +1,3 @@
-
-'use strict';
-
-module.exports = {
-	name: 'Umar Hansa'
+export default {
+	name: "Umar Hansa",
 };

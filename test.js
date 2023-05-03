@@ -1,9 +1,9 @@
+import test from "node:test";
+import assert from "node:assert/strict";
+import umar from "./index.js";
 
-import test from 'ava';
-import umar from './';
-
-test('Has a name property', t => {
-	t.is(typeof umar, 'object');
-	t.is(umar.name, 'Umar Hansa');
-	t.end();
+test("My test suite", async (t) => {
+	await t.test("Name is set correctly", () => {
+		assert.strictEqual(umar.name, "Umar Hansa");
+	});
 });

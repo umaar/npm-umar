@@ -1,34 +1,19 @@
 {
   "name": "umar",
   "version": "0.0.0",
-  "description": "",
+  "description": "A test module for me",
   "license": "MIT",
+  "type": "module",
   "repository": "umaar/npm-umar",
   "author": {
     "name": "Umar Hansa",
     "email": "umar.hansa@gmail.com",
     "url": "https://www.npmjs.com/package/umar"
   },
-  "engines": {
-    "node": ">=0.10.0"
-  },
   "scripts": {
-    "test": "xo && ava"
+    "test": "node --test"
   },
   "files": [
     "index.js"
-  ],
-  "keywords": [
-    ""
-  ],
-  "dependencies": {},
-  "devDependencies": {
-    "ava": "^0.3.0",
-    "xo": "^0.7.1"
-  },
-  "xo": {
-    "ignores": [
-      "test.js"
-    ]
-  }
+  ]
 }
